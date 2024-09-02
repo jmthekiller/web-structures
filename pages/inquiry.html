@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="Information System, CICS" />
+        <meta name="description" content="Learning about website structure" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Jhon Michael Recana" />
+        <title>CICS | Inquiry</title>
+        <link rel="stylesheet" href="../css/customstyle.css">
+        <style>
+
+        .inquiry-form div label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .inquiry-form input[type="text"],
+        .inquiry-form input[type="email"],
+        .inquiry-form textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+            
+        .inquiry-form input[type="submit"] {
+            background-color: #028A0F;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 10px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .inquiry-form input[type="submit"]:hover {
+            background-color: #026A02;
+        }
+        </style>
+    </head>
+
+    <body>
+        <!-- Start of Header -->
+        <header>
+            <h1>College of Information and Computing Sciences</h1>
+            <h3>Bachelor of Science in Information Systems</h3>
+            <div class="container">
+                <a href="../index.html">Home</a> |
+                <a href="about.html">About</a> |
+                <a href="contact.html">Contact</a> |
+                <a href="inquiry.html">Inquiry</a> |
+                <a href="profile.html">Profile</a> 
+            </div>
+        </header>
+        <!-- End of Header -->
+
+        <!-- Start of Section -->
+        <section>
+            <nav>
+                <ul class="navigation-menu">
+                    <li> <a href="headings.html">Headings</a> </li>
+                    <li> <a href="table.html">Table</a> </li>
+                    <li> <a href="forms.html">Forms</a> </li>
+                    <li> <a href="images.html">Images</a> </li>
+                    <li> <a href="lists.html">Lists</a> </li>
+                </ul>
+            </nav>
+            
+            <article class="inquiry-form">
+                <h2>For Inquiries</h2>
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="email" name="email">
+                </div>
+
+                <div>
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject">
+                </div>
+
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5"></textarea>
+                </div>
+
+                <div>
+                    <input type="submit" value="Submit">
+                </div>
+            </article>
+        </section>
+        <!-- End of Section -->
+
+        <!-- Start of Footer -->
+        <footer>
+            <h2>MarSU</h2>
+            <div class="footer-menu">
+                <a href="about.html">About</a> |
+                <a href="policy.html">Policy</a> |
+                <a href="terms.html">Terms of Use</a> |
+                <a href="privacy.html">Privacy</a> |
+                <a href="faq.html">FAQ</a> |
+                <a href="contact.html">Contact</a>
+            </div>
+            <div>
+                <p><b>Copyright &copy 2024.</b> MarSU Santa Cruz Campus BSIS Student</p>
+            </div>
+        </footer>
+        <!-- End of Footer -->
+    </body>
+</html>

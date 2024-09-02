@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="Information System, CICS" />
+        <meta name="description" content="Learning about website structure" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Jhon Michael Recana" />
+        <title>Lists</title>
+        <link rel="stylesheet" href="../css/customstyle.css">
+        <style>
+            article {
+                margin-bottom: 16px;
+            }
+
+            article h1 {
+                font-size: 2em;
+            }
+
+            .unordered-list {
+                list-style-type: disc;
+                padding-left: 16px;
+            }
+
+            .unordered-list li {
+                margin-bottom: 8px;
+            }
+
+            .unordered-list ul {
+                list-style-type: circle; 
+                margin-top: 8px;
+                padding-left: 24px;
+            }
+
+            .ordered-list {
+                list-style-type: decimal;
+                padding-left: 16px;
+            }
+
+            .ordered-list li {
+                margin-bottom: 8px;
+            }
+        </style>
+    </head> 
+
+    <body>
+        <!-- Start of Header -->
+        <header>
+            <h1>College of Information and Computing Sciences</h1>
+            <h3>Bachelor of Science in Information Systems</h3>
+            <div class="container">
+                <a href="../index.html">Home</a> |
+                <a href="about.html">About</a> |
+                <a href="contact.html">Contact</a> |
+                <a href="inquiry.html">Inquiry</a> |
+                <a href="profile.html">Profile</a> 
+            </div>
+        </header>
+        <!-- End of Header -->
+        
+        <!-- Start of Section -->
+        <section>
+            <nav>
+                <ul class="navigation-menu">
+                    <li> <a href="headings.html">Headings</a> </li>
+                    <li> <a href="table.html">Table</a> </li>
+                    <li> <a href="forms.html">Forms</a> </li>
+                    <li> <a href="images.html">Images</a> </li>
+                    <li> <a href="lists.html">Lists</a> </li>
+                </ul>
+            </nav>
+
+            <article>
+                <h1>Lists Example</h1>      
+                <h2>Unordered List</h2>
+                <ul class="unordered-list">
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3
+                        <ul>
+                            <li>Subitem 1</li>
+                            <li>Subitem 2</li>
+                        </ul>
+                    </li>
+                    <li>Item 4</li>
+                </ul>
+
+                <h2>Ordered List</h2>
+                <ol class="ordered-list">
+                    <li>First Item</li>
+                    <li>Second Item</li>
+                    <li>Third Item</li>
+                    <li>Fourth Item</li>
+                </ol>
+            </article>
+        </section>
+        <!-- End of Section -->
+
+        <!-- Start of Footer -->
+        <footer>
+            <h2>MarSU</h2>
+            <div class="footer-menu">
+                <a href="about.html">About</a> |
+                <a href="policy.html">Policy</a> |
+                <a href="terms.html">Terms of Use</a> |
+                <a href="privacy.html">Privacy</a> |
+                <a href="faq.html">FAQ</a> |
+                <a href="contact.html">Contact</a>
+            </div>
+            <div>
+                <p><b>Copyright &copy 2024.</b> MarSU Santa Cruz Campus BSIS Student</p>
+            </div>
+        </footer>
+        <!-- End of Footer -->
+    </body>
+</html>

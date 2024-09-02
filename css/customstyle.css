@@ -1,0 +1,152 @@
+/* Occupy the extra space around */
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.2;
+    color: #333333;
+    background-color: white;
+    flex: 1;
+}
+
+/* Start of Header */
+header {
+    background-color: #026A02;
+    color: white;
+    padding: 16px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 8px;
+}
+
+header h3 {
+    font-weight: 100;
+    margin-bottom: 16px;
+}
+
+header .container a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    background-color: #026A02;
+}
+
+header .container a:hover {
+    background-color: #7BCF02;
+}
+/* End of Header */
+
+/* Start of Section */
+nav {
+    width: 20%;
+    float: left;
+    background-color: #7BCF02;
+    height: 100%;
+}
+
+.navigation-menu {
+    padding-left: 0;
+    text-align: center;
+}
+
+.navigation-menu li {
+    padding: 53px;
+    list-style: none;
+    font-weight: bold;
+}
+
+.navigation-menu a {
+    text-decoration: none;
+    color: #026A02;
+
+}
+
+.navigation-menu li:hover {
+    opacity: .5;
+}
+
+article {
+    line-height: 1.7;
+    width: 72%;
+    float: left;
+    height: 100%;
+    padding: 4%;
+    text-align: justify;
+}
+
+/* Start of Table styles */
+caption {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border: 2px;
+    margin: 10px 0;
+}
+
+table, th, td {
+    border: 1px solid #dddddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #026A02;
+    color: white;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+/* End of Table styles */
+
+
+
+/* End of Section */
+
+
+/* Start of Footer */
+footer {
+    margin-top: auto;
+    background-color: #026A02;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer h2 {
+    margin-bottom: 20px;
+}
+
+footer .footer-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    background-color: #026A02;
+}
+
+footer .footer-menu a:hover {
+    background-color: #7BCF02;
+}
+
+footer p {
+    margin-top: 20px;
+}
+/* End of footer */
